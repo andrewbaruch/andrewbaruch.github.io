@@ -528,7 +528,7 @@ section {
 .portfolio .portfolio-wrap .figcaption .detail-text {
   text-align: center;
   font-weight: 500;
-  font-size: calc(1.25rem + 1.25vmax);
+  font-size: calc(1.25rem + 1vmax);
   display:block;
 }
 
@@ -560,7 +560,7 @@ section {
 }
 .portfolio .portfolio-wrap .figcaption a {
   color: #fff;
-  font-size: calc(1rem + 1vmax);
+  font-size: calc(1rem + 0.75vmax);
   text-align: center;
   transition: 0.3s;
   max-width: 70%;
