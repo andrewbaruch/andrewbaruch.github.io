@@ -528,14 +528,8 @@ section {
 .portfolio .portfolio-wrap .figcaption .detail-text {
   text-align: center;
   font-weight: 500;
-  font-size: calc(1.5rem + 0.5vmax);
+  font-size: calc(1rem + 0.5vmax);
   display:block;
-}
-
-@media (min-width: 768px) {
-  .portfolio .portfolio-wrap .figcaption .detail-text {
-    font-size: calc(1rem + 0.5vmax);
-  }
 }
 
 @media (min-width: 992px) {
@@ -560,7 +554,7 @@ section {
 }
 .portfolio .portfolio-wrap .figcaption a {
   color: #fff;
-  font-size: calc(1.25rem + 0.25vmax);
+  font-size: calc(1rem + 0.25vmax);
   text-align: center;
   transition: 0.3s;
   max-width: 70%;
@@ -569,12 +563,6 @@ section {
   border-width: 2px;
   border-style: solid;
   border-color: rgba(20, 157, 221, 1);
-}
-
-@media (min-width: 768px) {
-  .portfolio .portfolio-wrap .figcaption a {
-    font-size: calc(1rem + 0.25vmax);
-  }
 }
 
 @media (min-width: 992px) {
