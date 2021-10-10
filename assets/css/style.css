@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/background-bg.jpg") center left;
+  background: url("../img/background-bg.jpg") center;
   background-size: cover;
 }
 #hero:before {
@@ -522,14 +522,30 @@ section {
 .portfolio .portfolio-wrap .img {
   border-radius: 25px;
 }
-.portfolio .portfolio-wrap .figcaption:hover{
+.portfolio .portfolio-wrap .figcaption:hover {
   opacity: 1;
 }
-.portfolio .portfolio-wrap .figcaption .detail-text{
+.portfolio .portfolio-wrap .figcaption .detail-text {
   text-align: center;
   font-weight: 500;
-  font-size: calc(0.25rem + 1.25vw);
+  font-size: calc(1.25rem + 1.25vmax);
   display:block;
+}
+
+@media (min-width: 768px) {
+  .portfolio .portfolio-wrap .figcaption .detail-text {
+    font-size: calc(0.75rem + 1vmax);
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio .portfolio-wrap .figcaption .detail-text {
+    font-size: calc(0.5rem + 0.75vmax);
+  }
+}
+
+.portfolio-wrap figure {
+  margin: 0;
 }
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
@@ -544,7 +560,7 @@ section {
 }
 .portfolio .portfolio-wrap .figcaption a {
   color: #fff;
-  font-size: calc(0.25rem + 1vw);
+  font-size: calc(1rem + 1vmax);
   text-align: center;
   transition: 0.3s;
   max-width: 70%;
@@ -554,6 +570,19 @@ section {
   border-style: solid;
   border-color: rgba(20, 157, 221, 1);
 }
+
+@media (min-width: 768px) {
+  .portfolio .portfolio-wrap .figcaption a {
+    font-size: calc(0.75rem + 0.5vmax);
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio .portfolio-wrap .figcaption a {
+    font-size: calc(0.5rem + 0.5vmax);
+  }
+}
+
 .portfolio .portfolio-wrap figcaption a:hover {
   background: rgba(20, 157, 221, 0.95);
 }
