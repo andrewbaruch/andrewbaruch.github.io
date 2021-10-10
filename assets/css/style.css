@@ -560,7 +560,7 @@ section {
 }
 .portfolio .portfolio-wrap .figcaption a {
   color: #fff;
-  font-size: calc(1.25rem + 0.5vmax);
+  font-size: calc(1.25rem + 0.25vmax);
   text-align: center;
   transition: 0.3s;
   max-width: 70%;
